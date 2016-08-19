@@ -1,6 +1,6 @@
 /*
 Theme Name: No Money
-Theme URI: http://hexo.smasho.net/cult
+Theme URI: http://smasho.net/themes
 Author: Christopher Maiorana
 Author URI: naw
 Description: A very basic "cheap-ass" theme
@@ -105,6 +105,12 @@ strong {
 
 small {
 	font-family: deja;
+}
+
+blockquote {
+	font-family: dejaem;
+	font-size: 0.80em;
+	font-style: italic;
 }
 
 #the-post {

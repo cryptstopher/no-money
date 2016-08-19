@@ -27,10 +27,6 @@
 
 <div style="clear:both;"></div>
 <br>
-<aside><?php echo paginate_links( array( 
-    'prev_text'  => __('«'), 
-    'next_text' => __('»'),
-    ) 
-); ?></aside>
+<p style="text-align: right;"> <?php previous_posts_link(  ); ?> | <?php next_posts_link(  ); ?></p>
 
 <?php get_footer(); ?>

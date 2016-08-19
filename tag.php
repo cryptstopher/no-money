@@ -1,7 +1,9 @@
 <?php get_header(); ?>
 
   
-  <h1>The <?php get_tag() ?> information you requested:</h1>
+
+<h2>tagged: <?php single_tag_title(); ?></h2>
+
 
       <?php if ( have_posts() ) : while ( have_posts() ) : the_post();?>
    
