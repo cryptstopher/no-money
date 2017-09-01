@@ -16,7 +16,9 @@
 <header>
 <table>
 <td>
-<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img style="float:left;margin: 0;" width="237px" height="178px" src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/no-money/images/jerry_computer.gif" style="border:1px solid black;max-width:100%;" alt="Welcome to Computer!"></a>
+    <div class="jerry">
+	<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img style="float:left;margin: 0;" width="237px" height="178px" src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/no-money/images/jerry_computer.gif" style="border:1px solid black;max-width:100%;" alt="Welcome to Computer!"></a>
+    </div>
 </td>
 <td>
 <div style="float:left">

@@ -30,6 +30,10 @@ header a {
 	color: orange;
 }
 
+.jerry td a {
+    color: #a242a2;
+}
+
 header h1 a:visited {
 	color: orange;
 }
@@ -42,7 +46,7 @@ header h1 {
 }
 
 header img {
-	border: 2px ridge;
+	border: 2px ridge purple;
 }
 
 
@@ -214,7 +218,7 @@ img.aligncenter {
 	margin-bottom: 12px;
 }
 .wp-caption {
-	background: #f1f1f1;
+	background: #c79595;
 	line-height: 18px;
 	margin-bottom: 20px;
 	max-width: 632px !important; /* prevent too-wide images from breaking layout */
@@ -226,9 +230,10 @@ img.aligncenter {
 	max-width: 622px; /* caption width - 10px */
 }
 .wp-caption p.wp-caption-text {
-	color: #777;
-	font-size: 12px;
+	color: #290e0e;
+	font-size: 13px;
 	margin: 5px;
+	font-family: dejabold;
 }
 .wp-smiley {
 	margin: 0;
@@ -276,4 +281,40 @@ img.aligncenter {
 #content .attachment img {/* single attachment images should be centered */
 	display: block;
 	margin: 0 auto;
+}
+
+
+/* Taking care of Supers and Subs */
+
+sub, sup {
+  /* Specified in % so that the sup/sup is the
+     right size relative to the surrounding text */
+  font-size: 75%;
+
+  /* Zero out the line-height so that it doesn't
+     interfere with the positioning that follows */
+  line-height: 0;
+
+  /* Where the magic happens: makes all browsers position
+     the sup/sup properly, relative to the surrounding text */
+  position: relative;
+
+  /* Note that if you're using Eric Meyer's reset.css, this
+     is already set and you can remove this rule */
+  vertical-align: baseline;
+}
+
+sup {
+  /* Move the superscripted text up */
+  top: -0.5em;
+}
+
+sub {
+  /* Move the subscripted text down, but only
+     half as far down as the superscript moved up */
+  bottom: -0.25em;
+}
+
+span.section-number::after {
+	content:". ";
 }
