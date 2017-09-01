@@ -7,7 +7,7 @@
 	<footer>
 	<hr>
 	<center>
-	<p><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a> | Proudly powered by <a href="http://smasho.net/images/5fe56e48-b994-4387-aa80-d870b3acc76b.png">NerdPress</a> </p>
+	    <p><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a> | Proudly powered by <a href="https://wordpress.org/">WordPress</a> </p>
 	</center>
 	</footer>
 

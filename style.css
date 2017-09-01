@@ -26,6 +26,10 @@ header {
     background-position: center bottom;
 }
 
+header a {
+	color: orange;
+}
+
 header h1 a:visited {
 	color: orange;
 }
@@ -55,7 +59,7 @@ header aside {
 
 body {
 	background-color: snow;
-	max-width: 900px;
+	max-width: 800px;
 	margin: auto;
 	padding-right: 5%;
 	padding-left: 5%;
