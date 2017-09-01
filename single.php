@@ -2,7 +2,7 @@
     if ( have_posts() ) : while ( have_posts() ) : the_post();?>
 
     <div id="the-post">
-    <h2><?php the_title($before = '&#8220;', $after = '&#8221;'); ?></h2>
+    <h1><?php the_title(); ?></h1>
     <p><?php the_content(); ?></p>
 
 <small>This entry was posted on 
