@@ -8,7 +8,7 @@
 </table>
 <div style="clear:both;"></div>
 <p style="padding: 0px 0px 0px 0px;">
-    <?php the_excerpt(); ?>
+ <?php the_excerpt(); ?>
 </p>
     <small><?php the_tags( ); ?></small>
 </article>
