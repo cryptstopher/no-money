@@ -1,0 +1,18 @@
+No Money is a very basic "cheap-ass" 1990s theme for WordPress.
+
+## Suggested Installation
+
+I suggest cloning this bad boy into your `themes` directory. That's
+what I do. So whenever there's a change you can just do a `git pull`.
+
+## Style
+
+No Money provides an optional post index with nice gifs of Jerry
+Seinfeld in front of an old CRT monitor and spinning globes alongside
+posts.
+
+![Like spinning
+globes!](https://djintendo.com/wp-content/uploads/bananasalt.png ) 
+
+Eventually, a conditional statement may provide a different icon
+depending on the post category, or something like that.
