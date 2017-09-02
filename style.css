@@ -182,6 +182,8 @@ footer p {
    src: url(font/DejaVuSerif-Italic.ttf);
 }
 
+/* Image stuff is from the wordpress Twenty Ten theme */
+
 img.size-auto,
 img.size-full,
 img.size-large,
@@ -284,7 +286,12 @@ img.aligncenter {
 }
 
 
-/* Taking care of Supers and Subs */
+/* 
+
+Taking care of Supers and Subs 
+Got it from this gist: https://gist.github.com/unruthless/413930
+
+*/
 
 sub, sup {
   /* Specified in % so that the sup/sup is the
