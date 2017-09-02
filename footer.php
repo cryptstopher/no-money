@@ -1,9 +1,5 @@
 <?php
-
-
 ?>
-
-
 	<footer>
 	<hr>
 	<center>
