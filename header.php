@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html>
-<head>
-<?php wp_head(); ?>
-<title>
-<?php
-	global $page, $paged;
-	wp_title( '|', true, 'right' );
-	bloginfo( 'name' );
-	?>
-</title>
-<link rel="stylesheet" type="text/css" href="<?php echo esc_url( home_url( '/' ) ); ?>/wp-content/themes/no-money/style.css">
+    <head>
+	<?php wp_head(); ?>
+	<title>
+	    <?php
+	    global $page, $paged;
+	    wp_title( '|', true, 'right' );
+	    bloginfo( 'name' );
+	    ?>
+	</title>
+	<link rel="stylesheet" type="text/css" href="<?php echo esc_url( home_url( '/' ) ); ?>/wp-content/themes/no-money/style.css">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-79841775-2"></script>
+	<script>
+	 window.dataLayer = window.dataLayer || [];
+	 function gtag(){dataLayer.push(arguments);}
+	 gtag('js', new Date());
+
+	 gtag('config', 'UA-79841775-2');
+	</script>
+
 </head>
 <div style="clear:both;"></div> 
 <body <?php body_class(); ?>>
@@ -25,6 +35,3 @@
 <h1 style="margin-bottom: 0;"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a></h1>
 <aside style="margin-top: 0;"> <?php bloginfo( 'description' ); ?></aside>
 </div></td></table></header>
-
-
-
