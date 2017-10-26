@@ -31,6 +31,6 @@
 </td>
 <td>
 <div style="float:left">
-<h1 style="margin-bottom: 0;"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a></h1>
-<aside style="margin-top: 0;"> <?php bloginfo( 'description' ); ?></aside>
+    <h1 style="margin-bottom: 0;"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a></h1>
+    <aside style="margin-top: 0;"> <?php bloginfo( 'description' ); ?></aside>
 </div></td></table></header>

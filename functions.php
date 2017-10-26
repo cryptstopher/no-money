@@ -1,3 +1,4 @@
+<?php add_theme_support( 'post-thumbnails' );?>
 <?php function wpb_rand_posts() { 
 
     $args = array(
