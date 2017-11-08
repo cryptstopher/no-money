@@ -2,7 +2,9 @@
     if ( have_posts() ) : while ( have_posts() ) : the_post();?>
 
     <div id="the-post">
-	<h1><?php the_title(); ?></h1>
+	<h1><?php the_title(); ?><?php if ( is_preview() ) {
+				 echo " " . "(" . "Preview" . ")";
+				 } ?></h1>
 	<p><?php the_content(); ?></p>
 
 	<small>This entry was posted on 
